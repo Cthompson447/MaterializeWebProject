@@ -1,2 +1,0 @@
-# MaterializeWebProject
-First Materialize Project
