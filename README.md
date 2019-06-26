@@ -1,4 +1,3 @@
-# MaterializeWebProject
-First Materialize Project
+# HCI Project
 
-This is my attempt at getting some further experience with CSS, JS and HTML through building a website with the Materialize libraries
+Project for my HCI Module at Ulster University, using materialize libraries to build a clean, effective and engaging user experience.
