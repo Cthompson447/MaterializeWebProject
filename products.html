@@ -29,9 +29,12 @@
     <a class="carousel-item" href="#five!"><img src="images/turbo.jpg"></a>
 </div>
 <script>
-   var elems = document.querySelectorAll('.carousel');
-   var instance = M.Carousel.init({
-fullWidth: true, numVisible: 5});
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {fullWidth: true});
+    });
 </script>
+
+
 </body>
 </html>
