@@ -16,14 +16,39 @@
 <div class="row">
     <form class="col s12">
         <div class="row">
-            <div class="input-field col s3">
+            <div class="input-field col s4">
                 <i class="material-icons prefix">account_circle</i>
                 <input id="first_name" type="text" class="validate">
                 <label for="first_name">First Name</label>
             </div>
-            <div class="input-field col s3">
+            <div class="input-field col s4">
                 <input id="last_name" type="text" class="validate">
                 <label for="last_name">Last Name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4">
+                <i class="material-icons prefix">home</i>
+                <input id="addressLine1" type="text" class="validate">
+                <label for="addressLine1">Address Line 1</label>
+            </div>
+            <div class="input-field col s4">
+                <input id="addressLine2" type="text" class="validate">
+                <label for="addressLine2">Address Line 2</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4">
+                <i class="material-icons prefix"></i>
+                <input id="postCode" type="text" class="validate">
+                <label for="postCode">Post Code</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4">
+                <i class="material-icons prefix">map</i>
+                <input id="county" type="text" class="validate">
+                <label for="county">County</label>
             </div>
         </div>
         <div class="row">
@@ -35,6 +60,14 @@
         </div>
         <div class="row">
             <div class="input-field col s4">
+                <i class="material-icons prefix">phone</i>
+                <input id="phoneNumber" type="text" class="validate">
+                <label for="phoneNumber">Phone Number</label>
+            </div>
+        </div>
+        <div class="row">
+            <p class="col s2">Please enter a password to create an account with CT Tuning.</p>
+            <div class="input-field col s4">
                 <i class="material-icons prefix">lock</i>
                 <input id="password" type="password" class="validate">
                 <label for="password">Password</label>
@@ -43,4 +76,30 @@
     </form>
 </div>
 </body>
+<footer class="page-footer blue darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l2 s6">
+                <h5 class="white-text">CT Tuning</h5>
+                <p class="grey-text text-lighten-4">Find us:</p>
+            </div>
+            <div class="mapouter col l4 s8">
+                <div class="gmap_canvas offset-l2">
+                    <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=ballyhalbert&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe><a href="https://www.enable-javascript.net"></a>
+                </div>
+                <style>.mapouter{position:relative;text-align:right;height:300px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="aboutUs.html">About Us</a></li>
+                    <li><a class="grey-text text-lighten-3" href="contactUs.html">Contact Us</a></li>
+                </ul>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+
+        </div>
+    </div>
+</footer>
 </html>
