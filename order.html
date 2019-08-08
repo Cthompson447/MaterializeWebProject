@@ -14,7 +14,7 @@
 </nav>
 <body>
 <div class="row">
-    <form class="col s12">
+    <form class="col s12" action="payment.html">
         <div class="row">
             <div class="input-field col s4">
                 <i class="material-icons prefix">account_circle</i>
@@ -39,7 +39,7 @@
         </div>
         <div class="row">
             <div class="input-field col s4">
-                <i class="material-icons prefix"></i>
+                <i class="material-icons prefix">mail_outline</i>
                 <input id="postCode" type="text" class="validate">
                 <label for="postCode">Post Code</label>
             </div>
@@ -53,25 +53,28 @@
         </div>
         <div class="row">
             <div class="input-field col s4">
-                <i class="material-icons prefix">email</i>
-                <input id="email" type="email" class="validate">
-                <label for="email">Email</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="input-field col s4">
                 <i class="material-icons prefix">phone</i>
                 <input id="phoneNumber" type="text" class="validate">
                 <label for="phoneNumber">Phone Number</label>
             </div>
         </div>
         <div class="row">
-            <p class="col s2">Please enter a password to create an account with CT Tuning.</p>
+            <div class="input-field col s4">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="row">
+            <p class="col s4"><br>Please enter a password to create an account with CT Tuning:</p>
             <div class="input-field col s4">
                 <i class="material-icons prefix">lock</i>
                 <input id="password" type="password" class="validate">
                 <label for="password">Password</label>
             </div>
+            <button class="col offset-l2 btn waves-effect waves-light blue darken-3" type="submit" name="action">Proceed To Payment
+                <i class="material-icons right">send</i>
+            </button>
         </div>
     </form>
 </div>

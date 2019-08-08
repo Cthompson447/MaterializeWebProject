@@ -1,0 +1,81 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <script src="js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+<nav class="blue darken-3">
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo center">CT Tuning</a>
+        <ul class="left hide-on-med-and-down">
+        </ul>
+    </div>
+</nav>
+<body>
+<div class="row">
+    <form class="col s12" action="orderSuccess.html">
+        <H6>Please enter the required payment information below to complete your purchase:</H6>
+        <div class="row">
+            <div class="input-field col s4">
+                 <i class="material-icons prefix">account_circle</i>
+                 <input id="cardHolderName" type="text" class="validate">
+                 <label for="cardHolderName">Cardholder Name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4">
+                <i class="material-icons prefix">credit_card</i>
+                <input id="cardNumber" type="text" class="validate">
+                <label for="cardNumber">Card Number</label>
+            </div>
+        </div>
+        <div class="row">
+            <p>Expiry Date</p>
+            <div class="input-field col s1">
+                <i class="material-icons prefix">date_range</i>
+                <input id="expiryDateMonth" type="text" class="validate">
+                <label for="expiryDateMonth">Month</label>
+            </div>
+            <div class="input-field col s1">
+                <input id="expiryDateYear" type="text" class="validate">
+                <label for="expiryDateYear">Year</label>
+            </div>
+            <div class="input-field col s1">
+                <input id="securityCode" type="text" class="validate">
+                <label for="securityCode">CVV</label>
+            </div>
+        </div>
+        <button class="col offset-l2 btn waves-effect waves-light blue darken-3" type="submit" name="action">Complete purchase
+            <i class="material-icons right">send</i>
+        </button>
+    </form>
+</div>
+</body>
+<footer class="page-footer blue darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l2 s6">
+                <h5 class="white-text">CT Tuning</h5>
+                <p class="grey-text text-lighten-4">Find us:</p>
+            </div>
+            <div class="mapouter col l4 s8">
+                <div class="gmap_canvas offset-l2">
+                    <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=ballyhalbert&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe><a href="https://www.enable-javascript.net"></a>
+                </div>
+                <style>.mapouter{position:relative;text-align:right;height:300px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="aboutUs.html">About Us</a></li>
+                    <li><a class="grey-text text-lighten-3" href="contactUs.html">Contact Us</a></li>
+                </ul>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</html>
