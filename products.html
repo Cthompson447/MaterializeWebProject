@@ -27,15 +27,106 @@
 </div>
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Parallax</h2>
-        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        <h2 class="header">Products</h2>
+        <div class="caption center-align">
+            <a class="modal-trigger" href="#modalTurbo">
+                 <img src="images/turbo.jpg" width="300" height="250">
+            </a>
+            <a class="modal-trigger" href="#modalExhaust">
+        <img src="images/exhaust.jpg" width="300" height="250">
+            </a>
+            <a class="modal-trigger" href="#modalIntake">
+        <img src="images/intake.jpg" width="300" height="250">
+            </a>
+            <a class="modal-trigger" href="#modalRadiator">
+        <img src="images/radiator.jpg" width="300" height="250">
+            </a>
+            <a class="modal-trigger" href="#modalSpoiler">
+        <img src="images/spoiler.jpg" width="300" height="250">
+            </a>
+            <a class="modal-trigger" href="#modalSupercharger">
+        <img src="images/supercharger.jpg" width="300" height="250">
+            </a>
     </div>
+</div>
 </div>
 <div class="parallax-container">
     <div class="parallax"><img src="images/parallaxBanner2.jpg" alt="Banner image of a car engine"></div>
 </div>
+<!--This section below is the HTML code for each of the modals that an image click will pop up -->
+    <div id="modalTurbo" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Garrett Turbo</h4>
+            <img src="images/turbo.jpg" width="300" height="250">
+            <p>High performance Garrett Turbo, suitable for use with Toyota GT86.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Add to Basket</a>
+        </div>
+    </div>
 
+    <div id="modalExhaust" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Garrett Turbo</h4>
+            <img src="images/exhaust.jpg" width="300" height="250">
+            <p>High performance Garrett Turbo, suitable for use with Toyota GT86.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Add to Basket</a>
+        </div>
+    </div>
 
+    <div id="modalIntake" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Garrett Turbo</h4>
+            <img src="images/intake.jpg" width="300" height="250">
+            <p>High performance Garrett Turbo, suitable for use with Toyota GT86.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Add to Basket</a>
+        </div>
+    </div>
+
+    <div id="modalRadiator" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Garrett Turbo</h4>
+            <img src="images/radiator.jpg" width="300" height="250">
+            <p>High performance Garrett Turbo, suitable for use with Toyota GT86.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Add to Basket</a>
+        </div>
+    </div>
+
+    <div id="modalSpoiler" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Garrett Turbo</h4>
+            <img src="images/spoiler.jpg" width="300" height="250">
+            <p>High performance Garrett Turbo, suitable for use with Toyota GT86.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Add to Basket</a>
+        </div>
+    </div>
+
+    <div id="modalSupercharger" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Garrett Turbo</h4>
+            <img src="images/supercharger.jpg" width="300" height="250">
+            <p>High performance Garrett Turbo, suitable for use with Toyota GT86.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Add to Basket</a>
+        </div>
+    </div>
+
+<!--Footer section -->
 <footer class="page-footer blue darken-3">
     <div class="container">
         <div class="row">
@@ -69,6 +160,14 @@
         var elems = document.querySelectorAll('.parallax');
         var instances = M.Parallax.init(elems, {fullWidth: true});
     });
+</script>
+<!--Javascript for modals-->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, {opacity: 0.5});
+  });
+
 </script>
 </html>
 
