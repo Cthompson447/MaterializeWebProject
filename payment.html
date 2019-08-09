@@ -8,13 +8,18 @@
 <nav class="blue darken-3">
     <div class="nav-wrapper">
         <a href="index.html" class="brand-logo center">CT Tuning</a>
-        <ul class="left hide-on-med-and-down">
+        <a href="basket.html"><i class="right material-icons prefix">shopping_cart</i></a>
+        <ul class="left center-align">
+            <li><a href="products.html">Products</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
         </ul>
     </div>
 </nav>
 <body>
 <div class="row">
     <form class="col s12" action="orderSuccess.html">
+        <br>
         <H6>Please enter the required payment information below to complete your purchase:</H6>
         <div class="row">
             <div class="input-field col s4">
@@ -30,8 +35,8 @@
                 <label for="cardNumber">Card Number</label>
             </div>
         </div>
+        <H6>Expiry Date</H6>
         <div class="row">
-            <p>Expiry Date</p>
             <div class="input-field col s1">
                 <i class="material-icons prefix">date_range</i>
                 <input id="expiryDateMonth" type="text" class="validate">
