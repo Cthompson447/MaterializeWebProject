@@ -24,20 +24,25 @@
 </nav>
 <body>
 <div class="row">
+    <br>
+    <div class="col s12 ">
+        <a href="basket.html" class="breadcrumb blue-text">Basket ></a>
+        <a href="order.html" class="breadcrumb blue-text">Order Details ></a>
+    </div>
     <form class="col s12" action="orderSuccess.html">
         <br>
         <H6>Please enter the required payment information below to complete your purchase:</H6>
         <div class="row">
             <div class="input-field col s4">
                  <i class="material-icons prefix">account_circle</i>
-                 <input id="cardHolderName" type="text" class="validate">
+                 <input id="cardHolderName" type="text" required="required" class="validate">
                  <label for="cardHolderName">Cardholder Name</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s4">
                 <i class="material-icons prefix">credit_card</i>
-                <input id="cardNumber" type="text" class="validate">
+                <input id="cardNumber" type="text" required="required" class="validate">
                 <label for="cardNumber">Card Number</label>
             </div>
         </div>
@@ -45,15 +50,15 @@
         <div class="row">
             <div class="input-field col s1">
                 <i class="material-icons prefix">date_range</i>
-                <input id="expiryDateMonth" type="text" class="validate">
+                <input id="expiryDateMonth" required="required" type="text" class="validate">
                 <label for="expiryDateMonth">Month</label>
             </div>
             <div class="input-field col s1">
-                <input id="expiryDateYear" type="text" class="validate">
+                <input id="expiryDateYear" required="required" type="text" class="validate">
                 <label for="expiryDateYear">Year</label>
             </div>
             <div class="input-field col s1">
-                <input id="securityCode" type="text" class="validate">
+                <input id="securityCode" required="required" type="text" class="validate">
                 <label for="securityCode">CVV</label>
             </div>
         </div>

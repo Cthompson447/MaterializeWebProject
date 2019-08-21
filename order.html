@@ -23,23 +23,27 @@
 </nav>
 <body>
 <div class="row">
+    <br>
+    <div class="col s12 ">
+        <a href="basket.html" class="breadcrumb blue-text">Basket ></a>
+    </div>
     <h6>Please enter your personal order details below.</h6>
     <form class="col s12" action="payment.html">
         <div class="row">
             <div class="input-field col s4">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="first_name" type="text" class="validate">
+                <input id="first_name" type="text" required="required" class="validate">
                 <label for="first_name">First Name</label>
             </div>
             <div class="input-field col s4">
-                <input id="last_name" type="text" class="validate">
+                <input id="last_name" type="text" required="required" class="validate">
                 <label for="last_name">Last Name</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s4">
                 <i class="material-icons prefix">home</i>
-                <input id="addressLine1" type="text" class="validate">
+                <input id="addressLine1" type="text" required="required" class="validate">
                 <label for="addressLine1">Address Line 1</label>
             </div>
             <div class="input-field col s4">
@@ -50,28 +54,28 @@
         <div class="row">
             <div class="input-field col s4">
                 <i class="material-icons prefix">mail_outline</i>
-                <input id="postCode" type="text" class="validate">
+                <input id="postCode" type="text" required="required" class="validate">
                 <label for="postCode">Post Code</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s4">
                 <i class="material-icons prefix">map</i>
-                <input id="county" type="text" class="validate">
+                <input id="county" type="text" required="required" class="validate">
                 <label for="county">County</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s4">
                 <i class="material-icons prefix">phone</i>
-                <input id="phoneNumber" type="text" class="validate">
+                <input id="phoneNumber" type="text" required="required"class="validate">
                 <label for="phoneNumber">Phone Number</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s4">
                 <i class="material-icons prefix">email</i>
-                <input id="email" type="email" class="validate">
+                <input id="email" type="email" required="required" class="validate">
                 <label for="email">Email</label>
             </div>
         </div>
@@ -79,7 +83,7 @@
             <p class="col s4"><br>Please enter a password to create an account with CT Tuning:</p>
             <div class="input-field col s4">
                 <i class="material-icons prefix">lock</i>
-                <input id="password" type="password" class="validate">
+                <input id="password" type="password" required="required" class="validate">
                 <label for="password">Password</label>
             </div>
             <button class="col offset-l2 btn waves-effect waves-light blue darken-3" type="submit" name="action">Proceed To Payment
